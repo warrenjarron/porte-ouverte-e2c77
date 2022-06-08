@@ -1,0 +1,308 @@
+body,html{
+	font-family: 'Spartan', sans-serif;
+}
+.logo-e2c{
+width: 186px;
+}
+.liens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(6, 142, 196, 0.952);
+    border-radius: 11px;
+
+}
+.menu a {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+}
+header a { 
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+header nav a{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: red;
+    margin-left: auto;
+    text-decoration: none;
+	font-size: 81%;
+}
+div{ 
+	display: inline-block;
+}
+.carte-de-france{
+	display: inline-block; 
+	width: 99%;
+	margin-left: 1px;
+	/* background-color: #ed835c; */
+	background-color: #050570db;
+	color: white;
+	margin-top: 66%;
+	padding: 10px;
+
+}
+.carte-de-france a{ 
+	color: white;
+	text-decoration: none;
+	margin: auto;
+	border-radius: 10px;
+	width: 47%;
+	height: 41px;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.carte-de-france img{
+	width: 76%;
+	margin-left: 150px;
+
+}
+.carte-de-france strong {
+color: white;
+}
+.carte-de-france p { 
+font-size: 61%;
+text-align: center;
+color: white;
+}
+.carte-de-france strong{ 
+	font-size: 10px;
+}
+.carte-de-france a h1{
+	font-size: 117%;
+	background-color: red;
+	border-radius: 10px;
+	width: 164px;
+	height: 30px;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+
+ h2{
+	font-size: 211%;
+}
+
+#PARTENAIRES{
+	color: black;
+	margin: 10px;
+}
+#PARTENAIRES img{
+	margin: 10px;
+	width: 30%;
+}
+
+	  .e2c a{ 
+text-decoration: none;
+color: red;
+margin-top: 10px;
+border: 2px solid rgba(6, 142, 196, 0.952);
+border-block-end: none;
+font-size: 124%;
+text-align:revert;
+padding: 1px;
+	  }
+	  .e2c{
+		  margin-top: 10px;
+		  color: white;
+	  }
+	.e2c img{  
+		width: 100%;
+	}
+	.e2c strong{
+		background: red;
+		padding: 5px;
+		border-radius: 10px;
+		margin-top: 10px;
+		color: white;
+		margin-right: auto;
+	}
+
+/* .flexm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexg{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.flexd{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.flexbtw{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.display{
+	display: flex;
+	align-items: center; */
+/* }
+.black{
+	color: black;
+}
+.white{
+	color: white;
+}
+.bgblack{
+	background-color: black;
+}
+.bgwhite{
+	background-color: white;
+}
+.decoration{
+	text-decoration: none;
+}
+.padding{
+	padding-right: 10px;
+}
+.paddingl{
+	padding-left: 10px;
+}
+.curser{
+	cursor: pointer;
+} */
+/*==========================================
+=            NAVBAR            =
+==========================================*/
+/* .colsizeh{
+	width: 300;
+	height: 70px;
+	padding: 0 0 0 0 !important;
+	background: black;
+	border-bottom: 2px solid rgba(186, 186, 186, 0.314);
+	position: relative;
+} */
+
+/*==========================================
+=            MAILLOT           =
+==========================================*/
+
+/*==================================
+=            Kouros          =
+==================================*/
+/* .placementvideo{
+	margin-left: 100em
+}
+.background-colorblack{
+	border-radius: 10;
+	background-color:blue ;
+} */
+/*==================================
+=            RESPONSIVE            =
+==================================*/
+
+/*==========================================
+=            BANDEROLE           =
+==========================================*/
+header{
+	width: auto;
+	height: 90px;
+	padding: 0 0 0 0 !important;
+	border-top: 2px solid rgba(6, 142, 196, 0.952);
+	position: relative;
+}
+footer{
+	background-color:lightgrey;
+	height:135px;
+	width:102%;
+	margin-left: -8px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 35px;
+}
+footer a{ 
+	display: block;
+	text-decoration: none;
+	color: white;
+	margin-top: 10px;
+}
+footer strong{
+	color: white;
+	background: red;
+	border-radius: 10px;
+	margin: 15px;
+	padding: 4px;
+}
+@media screen and (max-width: 768px) and (min-width: 320px){
+.carte-de-france{
+	margin-top: 66%
+	;
+}
+}
+
+	 @media screen and (max-width: 768px) {
+		.menu a {
+			font-size: 74%;
+
+		}
+		.carte-de-france{
+			margin-top: 94%;
+			width: 97%;
+		}
+		.carte-de-france img{
+			margin-left: 49px;
+		}
+		footer{
+			height: 144px;
+			margin-left: -8px;
+		}
+		 }
+		 @media screen and (max-width: 500px) {
+			
+			
+			.menu a {
+				font-size: 51%;
+	
+			}
+			.liens img { 
+				width: 97px;
+			}
+			.carte-de-france{
+				margin-top: 71%;
+				width: 95%;
+			}
+			.carte-de-france img{
+				margin-left: 49px;
+			}
+			footer{
+				height: 144px;
+				width: 121%;
+				margin-left: -8px;
+			}
+			header nav a { 
+				font-size: 51%;
+			}
+			.e2c a {
+				font-size: 60%;
+			}
+			.e2c img{ 
+				height: 166px;
+
+			}
+			 }
+			@media screen and (max-width: 375px) {
+				.carte-de-france{
+					margin-top: 130%;
+					width: 94%;
+				}
+				.menu a{
+					font-size: 63%;
+
+				}
+				.header nav a { 
+					font-size: 7px;
+				}
+				 
+			 }
